@@ -1,6 +1,16 @@
 # NY Weather & Air Pollution Analysis (2022)
 ## Weather Data Analysis
 This project examines weather data from New York State in 2022, focusing on the relationships between temperature, pollutant levels, and visibility. The goal is to understand environmental trends and their impacts on air quality.
+## Key Features:
+- Processed 13,000+ weather datasets to extract New York-specific data.
+- Built a Flask API for retrieving weather and pollution data by date.
+- Conducted in-depth visualizations to analyze pollutant patterns across counties.
+- Merged weather and pollution datasets for correlation analysis.
+## Technologies Used:
+- **Programming Languages:** Python
+- **Libraries:** Pandas, Matplotlib, Seaborn, Flask, pymysql
+- **Database:** MySQL
+- **Tools:** Jupyter Notebook
 ### Dataset Details:
 - **Year**: 2022  
 - **Scope**: Data from 13,474 global weather stations. Each CSV represents hourly weather data from a single station.  
@@ -434,11 +444,13 @@ def getDataNyairweather():
     "time_taken": 0.8606431484222412
 }
 ```
+## Results:
+- Ozone levels peak during the summer months (May to September), correlating with higher temperatures.
+- Morning and evening traffic contribute to increased CO, NO2, and SO2 levels.
+- Scatter plots show no clear linear relationship between visibility and pollutants.
 
-## CONCLUSION
-
-The airpollution and weather data journey started by collecting information about air quality and weather from different sources. Then, the data subset based on the common latitude and longitude was taken. The subset ha NY data consisting of Bronx and queens counties. made graphs and charts to see patterns and connections between things like air pollution and weather changes.
-
-Its noticed that pollution levels sometimes went up when there was more traffic in the city. Also, during hotter months, there was more ozone in the air, but other pollutants went down during these times.
-
-Finally, an API is created to get specific data like air pollution or weather data for that day. This was a journey of looking at information, finding connections, and making it easier for everyone to access important data or data subset.
+## Conclusion:
+This project demonstrated the integration of large-scale weather and air pollution datasets to uncover trends and correlations in New York State for 2022. By developing a Flask API and performing comprehensive data visualizations, the project:
+- Highlighted the seasonal and hourly trends in pollutants and their correlations with weather parameters.
+- Provided a flexible API for querying filtered data, enabling easier exploration for researchers and analysts.
+This analysis lays a foundation for further studies on how weather conditions influence air quality, with potential applications in environmental research and policy-making.
