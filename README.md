@@ -316,14 +316,14 @@ This shows that the average remains almost same for both the counties.
 
 Next a pairplot shows the relation between visibility and pollutants
 
-![Alt text](<images/Visibility and airpollutants scatter plots-1.png>)
+![Visibility and airpollutants scatter plots](<images/Visibility and airpollutants scatter plots-1.png>)
 
 
 The plot appears inconclusive regarding the relationship between visibility and air pollutants. Maybe due to dataset's small and not able to capture trends, looks like datapoints are scattered across the plot, obscuring distinct relationships between visibility and pollution levels. maybe other factors such as varying weather conditions like fog or mist, are significantly impacting visibility. The relationship itself might not be linear. Anomalies, missing values, or outliers within the dataset might distort the true relationship between visibility and air pollutants, affecting the plot's accuracy and clarity. 
 
 Given below is the scatter plot for temparature and pollutants
 
-![Alt text](<temparature and airpollutants comparision plot-1.png>)
+![temparature and airpollutants comparision plot](<images/temparature and airpollutants comparision plot-1.png>)
 
 No relationship between temperature and pollutants except for ozone. Pollutants' concentrations are influenced by various factors like industrial emissions, traffic, wind patterns, and geographic location. Temperature might not be the sole influential factor on their concentration levels.
 
@@ -331,13 +331,13 @@ No relationship between temperature and pollutants except for ozone. Pollutants'
 
  Given below are the hourly and monthly plots og pollutants and weather observations
 
- ![Alt text](<monthly weather data plots-1.png>) 
+ ![monthly weather data plots](<images/monthly weather data plots-1.png>) 
  
- ![Alt text](<hourly airpollution plots-1.png>) 
+ ![hourly airpollution plots](<images/hourly airpollution plots-1.png>) 
  
- ![Alt text](<hourly weather data plots-1.png>)
+ ![hourly weather data plots](<images/hourly weather data plots-1.png>)
  
-  ![Alt text](<monthly airpollution plots-1.png>)
+  ![monthly airpollution plots](<images/monthly airpollution plots-1.png>)
 
 Upon reviewing the hourly weather data depicted in the graphs, discernible patterns emerge. Ozone levels peak during midday hours, while CO, SO2, and NO2 exhibit higher concentrations in the mornings and evenings, showing a distinct correlation with daily traffic patterns. 
 
